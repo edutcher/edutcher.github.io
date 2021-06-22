@@ -10,10 +10,14 @@ import {
   IconButton,
   Box,
   Link,
+  AppBar,
+  Toolbar,
   Tooltip,
 } from "@material-ui/core";
 import Brightness3Icon from "@material-ui/icons/Brightness3";
 import BrightnessHighIcon from "@material-ui/icons/BrightnessHigh";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import { lightTheme, darkTheme } from "./themes/themes";
 import UseLocalStorage from "./hooks/useLocalStorage";
 
@@ -207,6 +211,26 @@ export default function App() {
                 </Link>
               </Grid>
             </Grid>
+          </Paper>
+          <Paper style={{ marginTop: "50px" }}>
+            <Typography variant="h5" component="h5">
+              Contact:
+            </Typography>
+            <Typography variant="subtitle1" component="span">
+              Email: edutcher@gmail.com
+            </Typography>
+            <br />
+            <Link href="https://www.linkedin.com/in/ethan-dutcher-905178ab/">
+              <IconButton>
+                <LinkedInIcon />
+              </IconButton>
+            </Link>
+            <br />
+            <Link href="https://github.com/edutcher">
+              <IconButton>
+                <GitHubIcon />
+              </IconButton>
+            </Link>
           </Paper>
         </Container>
       </CssBaseline>
