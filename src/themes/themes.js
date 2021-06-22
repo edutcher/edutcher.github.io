@@ -15,6 +15,14 @@ const darkTheme = () =>
       palette: {
         type: "dark",
       },
+      overrides: {
+        MuiLink: {
+          root: {
+            color: "#757de8",
+            textDecoration: "none",
+          },
+        },
+      },
     })
   );
 
