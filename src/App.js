@@ -96,7 +96,7 @@ export default function App() {
               Full Stack coding bootcamp from the University of Central Florida
               and I am looking forward to taking everything I have learned and
               putting it into practice. The program focused on the MERN stack,
-              but I would say the key thing I learned from the expereince is
+              but I would say the key thing I learned from the experience is
               that this career will be focused around learning new technologies
               and keeping pace with the industry. To that end, I have been
               spending time to prepare to take the AWS Cloud Practitioners
@@ -195,7 +195,11 @@ export default function App() {
                   <img
                     src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1627056871/SomeRecipes_xakdoy.png"
                     alt="SomeRecipes Homepage"
-                    style={{ objectFit: "cover", width: "100%" }}
+                    style={{
+                      objectFit: "cover",
+                      width: "100%",
+                      marginTop: "20px",
+                    }}
                   />
                 </a>
               </Grid>
@@ -217,6 +221,7 @@ export default function App() {
                   Cloudfront, CodeCommit
                 </Typography>
                 <br />
+                <br />
                 <Link href="https://github.com/edutcher/SomeRecipesFE">
                   Github Repo
                 </Link>
@@ -230,7 +235,11 @@ export default function App() {
                   <img
                     src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1622655181/Snap-That_rbvs2l.png"
                     alt="snap-that Homepage"
-                    style={{ objectFit: "cover", width: "100%" }}
+                    style={{
+                      objectFit: "cover",
+                      width: "100%",
+                      marginTop: "15px",
+                    }}
                   />
                 </a>
               </Grid>
@@ -251,6 +260,7 @@ export default function App() {
                   A MERN Stack site; MongoDB, Mongoose, Passport, Cloudinary,
                   ML5, Material-UI, Node, Express, React
                 </Typography>
+                <br />
                 <br />
                 <Link href="https://github.com/edutcher/Snap_That">
                   Github Repo
@@ -287,6 +297,7 @@ export default function App() {
                   Node, Express
                 </Typography>
                 <br />
+                <br />
                 <Link href="https://github.com/edutcher/Shoe_thing">
                   Github Repo
                 </Link>
@@ -300,7 +311,11 @@ export default function App() {
                   <img
                     src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1624389929/planner_mnqagz.jpg"
                     alt="Day Planner Homepage"
-                    style={{ objectFit: "cover", width: "100%" }}
+                    style={{
+                      objectFit: "cover",
+                      width: "100%",
+                      marginTop: "10px",
+                    }}
                   />
                 </a>
               </Grid>
@@ -320,6 +335,7 @@ export default function App() {
                 <Typography variant="subtitle2" component="span">
                   An early JQuery project; JQuery and Materialize
                 </Typography>
+                <br />
                 <br />
                 <Link href="https://github.com/edutcher/Day_Planner">
                   Github Repo
