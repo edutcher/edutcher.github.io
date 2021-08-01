@@ -37,8 +37,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(90),
   },
   icon: {
-    height: "50px",
-    width: "50px",
+    height: "75px",
+    width: "75px",
     marginRight: "7px",
   },
 }));
@@ -98,10 +98,11 @@ export default function App() {
               putting it into practice. The program focused on the MERN stack,
               but I would say the key thing I learned from the experience is
               that this career will be focused around learning new technologies
-              and keeping pace with the industry. To that end, I have been
-              spending time to prepare to take the AWS Cloud Practitioners
-              Certification. I have also started learning about Docker and
-              containerization, while picking up Python as a second language.
+              and keeping pace with the industry. To that end, I have obtained
+              my AWS Cloud Practitioners Certification and am studying for the
+              Cloud Architect and Developer exams. I have also started learning
+              about Docker and containerization, while picking up Python as a
+              second language.
             </Typography>
           </Paper>
           <Typography variant="h3" component="h3" style={{ margin: "35px" }}>
@@ -119,7 +120,7 @@ export default function App() {
               <Tooltip title="HTML">
                 <img
                   className={classes.icon}
-                  src="https://pics.freeicons.io/uploads/icons/png/13213538951581395613-512.png"
+                  src="https://image.flaticon.com/icons/png/512/732/732212.png"
                   alt="html icon"
                 />
               </Tooltip>
@@ -169,13 +170,13 @@ export default function App() {
                 <img
                   className={classes.icon}
                   src="https://material-ui.com/static/logo.png"
-                  alt="html icon"
+                  alt="Material-UI icon"
                 />
               </Tooltip>
               <Tooltip title="AWS">
                 <img
                   className={classes.icon}
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/1024px-AWS_Simple_Icons_AWS_Cloud.svg.png"
+                  src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1627843906/aws-certified-cloud-practitioner_joq6ve.png"
                   alt="AWS icon"
                 />
               </Tooltip>
