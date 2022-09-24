@@ -91,18 +91,19 @@ export default function App() {
               component="p"
               style={{ margin: "15px" }}
             >
-              &emsp; I am an aspiring Web Developer with a history in movie
-              theatre projection systems and IT. I have recently completed a
-              Full Stack coding bootcamp from the University of Central Florida
-              and I am looking forward to taking everything I have learned and
-              putting it into practice. The program focused on the MERN stack,
-              but I would say the key thing I learned from the experience is
-              that this career will be focused around learning new technologies
-              and keeping pace with the industry. To that end, I have obtained
-              my AWS Cloud Practitioners Certification and am studying for the
-              Cloud Architect and Developer exams. I have also started learning
-              about Docker and containerization, while picking up Python as a
-              second language.
+              &emsp; I am a Full Stack Web Developer with a history in movie
+              theatre projection systems and IT.  I started my college careeer
+              in computer science, but changed focus after working as a
+              projectionist in college.  During covid I took a Full Stack Web
+              Development Boot Camp from my former school, The University of
+              Central Florida.  This program re-invigorated my love of coding.
+              The program focused on the MERN stack, but I would say the key 
+              thing I learned from the experience is that this career will be 
+              focused around learning new technologies and keeping pace with the 
+              industry. To that end, I have obtained my AWS Cloud Practitioner 
+              nd Developers Associate certifications and am studying for the 
+              Cloud Architect exam. I have also started learning about Docker 
+              and containerization, while picking up Python as a second language.
             </Typography>
           </Paper>
           <Typography variant="h3" component="h3" style={{ margin: "35px" }}>
@@ -120,7 +121,7 @@ export default function App() {
               <Tooltip title="HTML">
                 <img
                   className={classes.icon}
-                  src="https://image.flaticon.com/icons/png/512/732/732212.png"
+                  src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Color_Black.png"
                   alt="html icon"
                 />
               </Tooltip>
@@ -173,10 +174,17 @@ export default function App() {
                   alt="Material-UI icon"
                 />
               </Tooltip>
-              <Tooltip title="AWS">
+              <Tooltip title="AWS Cloud Practitioner">
                 <img
                   className={classes.icon}
                   src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1627843906/aws-certified-cloud-practitioner_joq6ve.png"
+                  alt="AWS icon"
+                />
+              </Tooltip>
+              <Tooltip title="AWS Developer Associate">
+                <img
+                  className={classes.icon}
+                  src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1663529672/dev-associate_sguoe7.png"
                   alt="AWS icon"
                 />
               </Tooltip>
@@ -192,7 +200,7 @@ export default function App() {
           <Paper style={{ marginTop: "15px" }}>
             <Grid container>
               <Grid item xs={12} sm={3}>
-                <a href="https://dzs5rbsy0gur8.cloudfront.net/">
+                <a href="http://some-recipes.ethandutchercodes.com/">
                   <img
                     src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1627056871/SomeRecipes_xakdoy.png"
                     alt="SomeRecipes Homepage"
@@ -232,7 +240,7 @@ export default function App() {
           <Paper style={{ marginTop: "15px" }}>
             <Grid container>
               <Grid item xs={12} sm={3}>
-                <a href="https://snap-that-ed.herokuapp.com/">
+                <a href="http://snap-that.ethandutchercodes.com/">
                   <img
                     src="https://res.cloudinary.com/dd9hrrpch/image/upload/v1622655181/Snap-That_rbvs2l.png"
                     alt="snap-that Homepage"
